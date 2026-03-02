@@ -30,6 +30,9 @@
     { font-size: 1em; }
     aside li { font-size: .875em; }   
 }
+{
+    box-sizing: border-box;
+}
 /* the style for the body */
 body {
     font-size: 1em;      
