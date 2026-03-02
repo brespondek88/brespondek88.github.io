@@ -20,9 +20,10 @@
     { font-size: 1em; }
     aside li { font-size: .875em; }
     main, aside {
-    float: none;       /* stop floating left/right */
-    width: 100%;       /* take full width */
-    margin: 0 0 20px 0; /* optional spacing between stacked sections */
+    float: none !important;    /* remove left/right floats */
+    width: 100% !important;    /* make full width */
+    display: block !important; /* ensure they act like block elements */
+    margin: 0 0 20px 0;        /* spacing between stacked sections */
     }
 }
 @media only screen and (max-width: 479px) {
