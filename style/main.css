@@ -1,4 +1,9 @@
 /* @author: braiden respondek date developed: 2-2-26, tested: 2-22-26 */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 @media only screen and (max-width: 2024px) {
     #mobile_menu {display: none;}
 }
@@ -29,9 +34,6 @@
     article h1, main h2, aside h2
     { font-size: 1em; }
     aside li { font-size: .875em; }   
-}
-{
-    box-sizing: border-box;
 }
 /* the style for the body */
 body {
