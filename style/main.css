@@ -140,6 +140,9 @@ li {
     width: 400px;          /* choose your size */
     height: 400px;         /* make it square if you want */
     margin: 20px auto;
+    border: 5px solid #B5D3E7;
+    border-radius: 50px;
+    overflow: hidden;   
 }
 
 .rollover img {
@@ -147,6 +150,7 @@ li {
     height: 100%;
     object-fit: cover;     /* keeps image from stretching */
     display: block;
+    
 }
 
 
