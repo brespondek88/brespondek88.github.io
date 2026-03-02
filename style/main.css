@@ -104,15 +104,7 @@ li {
 #nav_menu ul li a.current {
     text-decoration: none; 
 }
-.blueoutline img {
-    border: 5px solid #B5D3E7;
-    margin: 0;
-    padding: 0;
-    border-radius: 50px;
-    position: relative;
-    right: 10px;
-    top: 10px;
-}
+
 .rollover {
     position: relative;
     width: 400px;   /* match image width */
