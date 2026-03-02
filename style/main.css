@@ -19,6 +19,11 @@
     article h1, main h2, aside h2
     { font-size: 1em; }
     aside li { font-size: .875em; }
+    main, aside {
+    float: none;       /* stop floating left/right */
+    width: 100%;       /* take full width */
+    margin: 0 0 20px 0; /* optional spacing between stacked sections */
+    }
 }
 @media only screen and (max-width: 479px) {
     #mobile_menu {display: block;}
