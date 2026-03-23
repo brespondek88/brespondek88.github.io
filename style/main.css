@@ -28,7 +28,11 @@
     p { font-size: 875em; }
     article h1, main h2, aside h2
     { font-size: 1em; }
-    aside li { font-size: .875em; }   
+    aside li { font-size: .875em; }
+    table {width: 100%;
+           display: block;
+           overflow-x: auto;}
+}
 }
 /* the style for the body */
 body {
