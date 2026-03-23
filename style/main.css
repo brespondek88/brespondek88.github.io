@@ -31,8 +31,8 @@
     aside li { font-size: .875em; }
     table {width: 100%;
            display: block;
-           overflow-x: auto;}
-}
+           overflow-x: auto;
+          }
 }
 /* the style for the body */
 body {
