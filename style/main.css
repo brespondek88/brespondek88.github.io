@@ -51,7 +51,7 @@ header {
 main {
     width: 47.917%;      /* 940/960 * 100 */
     padding: 10px  1.0417%;
-    background-color: #ffffff; /* this color is for white */
+    background-color: #ffffff;/* this color is for white */
     float: left;
 }
 aside {
@@ -100,7 +100,6 @@ table {
     width: 100%;
     border-collapse: collapse;
     border: 1px solid black;
-    background-color: #ffffff;
 }
 
 th, td {
