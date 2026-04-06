@@ -37,6 +37,42 @@ Southern Illinois University  Developed: 2-03-2026  Tested: 2-22-2026
                 <li><a href="work.htm">Occupation</a></li>
                 <li><a href="contact.htm" class="current">Contact</a></li>
             </ul> 
+            <body>
+<h1>Please complete our survey</h1>
+<form name="myform" action="survey_data.html" method="get">
+	
+	<h2>Contact information</h2>
+	<label for="email">Email address:</label>
+    <input type="email" name="email" id="email" autofocus required><br>
+    <label for="firstname">First name:</label>
+    <input type="text" name="firstname" id="firstname" required><br>
+    <label for="lastname">Last name:</label>
+    <input type="text" name="lastname" id="lastname" required><br>
+    
+	<h2>Geographic information</h2>
+	<label for="state">State:</label>
+    <input type="text" name="state" id="state" required placeholder="Two Characters"
+		pattern="[A-Za-z]{2}" title="Must be two characters"><br>
+    <label for="zip">Zip Code:</label>
+    <input type="text" name="zip" id="zip" required placeholder="Five Digits"
+		pattern="\d{5}" title="Must be 00000"><br>
+   
+	<h2>How did you hear about us?</h2>
+	<input type="checkbox" name="web" id="web" value="web">
+	<label for="web">Web Search:</label><br>
+    <input type="checkbox" name="Facebook" id="Facebook" value="Facebook">
+	<label for="web">Facebook:</label><br>
+	<input type="checkbox" name="X" id="X" value="X">
+	<label for="web">X:</label><br>
+	<input type="checkbox" name="Message" id="Message" value="Message">
+	<label for="web">Email Message:</label><br>
+
+	<h2>Thank you for taking our survey!</h2>
+    <input type="submit" name="button" id="button" value="Submit">
+    <input type="reset" name="reset" id="reset"> 
+</form>
+</body>
+</html>
         </nav>
         <main>
  
