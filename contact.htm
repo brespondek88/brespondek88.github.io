@@ -57,7 +57,6 @@ Southern Illinois University  Developed: 2-03-2026  Tested: 2-22-2026
 	Style:<br>
 	<select id="state" name="state" required>
     <option value="">Select Your State</option>
-    <optgroup label="States">
         <option value="AL">Alabama</option>
         <option value="AK">Alaska</option>
         <option value="AZ">Arizona</option>
@@ -111,15 +110,27 @@ Southern Illinois University  Developed: 2-03-2026  Tested: 2-22-2026
     </optgroup>
 </select>
 		<label for="zip">Zip:</label>
-        <input type="text" name="zip" id="zip" required><br>
+        <input type="text" name="zip" id="zip" 
+		minlength ="5" maxlength="9" placeholder="00000 or 00000-0000" required><br>
+	
 		<label for="phonenumber">Phone Number:</label>
         <input type="text" name="phonenumber" id="phonenumber" required><br>
+	
 		<label for="date">Date:</label>
         <input type="date" name="date" id="date" required><br>
+	
 		<label for="comment">Comment:</label>
 		<input type="text" name="comment" id="comment" 
         minlength="50" maxlength="200" required 
         placeholder="50-200 characters"><br>
+	
+	    <label for="inquiry1">Questions?:<br>
+		<input type="radio" name="inquiry" id="inquiry1" value="questions"
+		<label for="inquiry2">Join the Team!</label><br>
+		<input type="radio" name="inquiry" id="inquiry2" value="jointheteam">
+		<label for="crust2">Site Problems?</label><br>
+		<input type="radio" name="inquiry" id="inquiry3" value="siteproblems">
+
 	<h2>Thank you for completing the form!</h2>
     <input type="submit" name="button" id="button" value="Submit">
     <input type="reset" name="reset" id="reset"> 
